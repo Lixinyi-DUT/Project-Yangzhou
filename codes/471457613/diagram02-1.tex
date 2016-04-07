@@ -1,0 +1,19 @@
+% !TEX program = xelatex
+\documentclass{article}
+\usepackage{ctex}
+\usepackage{tikz}
+\usetikzlibrary{arrows,decorations.markings}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{calc}
+
+\begin{document}
+
+\input{diagram02-1-1.tikz}
+
+    \begin{tikzpicture}[decoration={
+      markings,
+      mark=at position 1 with {\arrow[scale=1.5]{angle 45}};
+  }]
+\input{diagram02-1-2.tikz}
+\end{tikzpicture}
+\end{document}
