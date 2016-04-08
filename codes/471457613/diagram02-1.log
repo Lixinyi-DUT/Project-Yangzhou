@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.7)  8 APR 2016 00:19
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.7)  9 APR 2016 00:03
 entering extended mode
 **F:/Project-Yangzhou/codes/471457613/diagram02-1.tex
 (F:/Project-Yangzhou/codes/471457613/diagram02-1.tex
@@ -1540,11 +1540,11 @@ Requested font "cmsy10" at 12.045pt
 Requested font "cmsy8" at 8.0pt
 Requested font "cmsy6" at 6.0pt
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12.045> on input line 5.
+(Font)              <12.045> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 5.
+(Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 5.
+(Font)              <6> on input line 2.
 Requested font "cmr12" at 12.045pt
 Requested font "cmr8" at 8.0pt
 Requested font "cmr6" at 6.0pt
@@ -1572,7 +1572,7 @@ Requested font "FangSong/I/OT" at 10.53937pt
 . 
 . Could not resolve font FangSong/I (it probably doesn't exist).
 .................................................
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 7.
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 4.
  (E:\CTEX\MiKTeX\tex\latex\euenc\eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1602,14 +1602,14 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 ) [1
 
-] (diagram02-1.aux) ) 
+] [2] (diagram02-1.aux) ) 
 Here is how much of TeX's memory you used:
  30392 strings out of 428702
  634156 string characters out of 3166026
- 573491 words of memory out of 3000000
+ 573482 words of memory out of 3000000
  33424 multiletter control sequences out of 15000+200000
  6602 words of font info for 39 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
- 65i,5n,78p,10470b,896s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 65i,5n,78p,10470b,904s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on diagram02-1.pdf (1 page).
+Output written on diagram02-1.pdf (2 pages).

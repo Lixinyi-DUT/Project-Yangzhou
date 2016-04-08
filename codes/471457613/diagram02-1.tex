@@ -7,10 +7,16 @@
 \usetikzlibrary{calc}
 
 \begin{document}
-
+  \begin{tikzpicture}[decoration={
+    markings,
+    mark=at position 1 with {\arrow[scale=1.5]{angle 45}};
+  }]
 \input{diagram02-1-1.tikz}
+\end{tikzpicture}
 
-    \begin{tikzpicture}[decoration={
+\vspace{1cm}
+
+\begin{tikzpicture}[decoration={
       markings,
       mark=at position 1 with {\arrow[scale=1.5]{angle 45}};
   }]
