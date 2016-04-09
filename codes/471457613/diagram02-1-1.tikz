@@ -3,6 +3,7 @@
   \draw[->,dashed,line width=2,color=gray] (8,-0.5) node[above,color=black]{\large{$B$}} -- (8,-9);
   \draw[->,line width=1,postaction={decorate}] (0,-1) --node[above,sloped]{\texttt{SYN=1, seq=0}} (8,-3);
   \draw[->,line width=1,postaction={decorate}] (8,-3.1) --node[above,sloped]{\texttt{SYN=1, seq=0, ack=1}} (0,-5.1);
-  \draw[->,line width=1,postaction={decorate}] (0,-5.2) --node[above,sloped]{\texttt{seq=1, ack=1}} (8,-7.2);
+  \draw[->,line width=1,postaction={decorate}] (0,-5.2) --node[above,sloped]{\texttt{{\textcolor{gray}{SYN=0, }
+  }seq=1, ack=1}} (8,-7.2);
 %  \draw[->,line width=1,postaction={decorate}] (0,-7.5) --node[above,sloped]{\texttt{seq=2, 500B数据}} (8,-9.5);
 %  \draw[->,line width=1,postaction={decorate}] (8,-9.7) --node[above,sloped]{\texttt{ACK=1, ack=502}} (0,-11.7);
