@@ -1,0 +1,15 @@
+
+  \draw[->,dashed,line width=2,color=gray] (0,-0.5) node[above,color=black]{\large{$A$}} -- (0,-17.5);
+  \draw[->,dashed,line width=2,color=gray] (8,-0.5) node[above,color=black]{\large{$B$}} -- (8,-17.5);
+  \draw[->,line width=1,color=blue,postaction={decorate}] (0,-1) --node[above,sloped,pos=0.25]{\texttt{seq=1, 500B数据}} (8,-3);
+  \draw[->,line width=1,postaction={decorate}] (8,-3.1) --node[above,sloped,pos=0.25]{\texttt{ack=501,\textcolor{gray}{seq=1}}} (0,-5.1);
+  \draw[->,line width=1,color=red,postaction={decorate}] (0,-2) --node[above,sloped,pos=0.333]{\texttt{seq=501, 500B数据}} (6,-3.5) node[right]{\large{\faClose}};
+  \draw[->,line width=1,color=blue,postaction={decorate}] (0,-3) --node[above,sloped,pos=0.25]{\texttt{seq=1001, 500B数据}} (8,-5);
+  \draw[->,line width=1,color=blue,postaction={decorate}] (0,-4) --node[above,sloped,pos=0.25]{\texttt{seq=1501, 500B数据}} (8,-6);
+  \draw[->,line width=1,postaction={decorate}] (8,-5.1) --node[above,sloped,pos=0.25]{\texttt{ack=1501,\textcolor{gray}{seq=1}}} (0,-7.1);
+  \draw[->,line width=1,postaction={decorate}] (8,-6.1) --node[above,sloped,pos=0.25]{\texttt{ack=2001,\textcolor{gray}{seq=1}}} (0,-8.1);
+  \draw[->,line width=1,color=red,postaction={decorate}] (0,-8.5) --node[above,sloped,pos=0.333]{\texttt{seq=501, 500B数据}} (6,-10) node[right]{\large{\faClose}};
+  \draw[->,line width=1,color=blue,postaction={decorate}] (0,-10.5) --node[above,sloped,pos=0.25]{\texttt{seq=501, 500B数据}} (8,-12.5);
+  \draw[->,line width=1,postaction={decorate}] (8,-12.6) --node[above,sloped,pos=0.25]{\texttt{ack=1001,\textcolor{gray}{seq=1}}} (0,-14.6);
+  \draw[->,line width=1,color=blue,postaction={decorate}] (0,-14.8) --node[above,sloped,pos=0.25]{\texttt{seq=2001, 500B数据}} (8,-16.8);
+  \draw (4, -16.5) node {$\vdots$}

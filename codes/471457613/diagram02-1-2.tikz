@@ -2,5 +2,5 @@
 \draw[->,dashed,line width=2,color=gray] (8,-0.5) node[above,color=black]{\large{$B$}} -- (8,-10);
 \draw[->,line width=1,postaction={decorate}] (0,-1) --node[above,sloped]{\texttt{FIN=1, seq=5001}} (8,-3);
 \draw[->,line width=1,postaction={decorate}] (8,-3.1) --node[above,sloped]{\texttt{ACK=1, seq=10001, ack=5002}} (0,-5.1);
-\draw[->,line width=1,postaction={decorate}] (8,-5.2) --node[above,sloped]{\texttt{FIN=1, ACK=1, seq=10001, ack=5002}} (0,-7.2);
+\draw[->,line width=1,postaction={decorate}] (8,-5.2) --node[above,sloped]{\texttt{FIN=1, seq=10001}} (0,-7.2);
 \draw[->,line width=1,postaction={decorate}] (0,-7.3) --node[above,sloped]{\texttt{ACK=1, seq=5002, ack=10002}} (8,-9.3);
