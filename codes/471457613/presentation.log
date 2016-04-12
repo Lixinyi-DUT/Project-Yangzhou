@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.7)  12 APR 2016 13:11
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.7)  12 APR 2016 14:26
 entering extended mode
 **./presentation.tex
 (presentation.tex
@@ -2556,18 +2556,9 @@ Requested font "cmr12" at 12.045pt
 Requested font "cmr8" at 8.0pt
 Requested font "cmr6" at 6.0pt
 Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
  [4
-
-]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [5
-
-]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [6
 
 ] (diagram02-1-1.tikz
 Missing character: There is no ; in font nullfont!
@@ -2580,16 +2571,12 @@ Missing character: There is no ; in font nullfont!
 Overfull \vbox (30.02144pt too high) detected at line 90
  []
 
-[7
+[5
 
 ]
 Requested font "Microsoft YaHei/OT:script=hani;language=DFLT;" at 12.045pt
  -> C:/Windows/Fonts/msyh.ttc
- [8
-
-] [9
-
-] [10
+ [6
 
 ] (diagram02-1-3.tikz
 Requested font "[lmsans8-regular]:mapping=tex-text" at 6.52437pt
@@ -2599,122 +2586,9 @@ Requested font "[lmmono8-regular]" at 6.52437pt
 Requested font "FangSong/OT:script=hani;language=DFLT;" at 6.52437pt
  -> C:/Windows/Fonts/simfang.ttf
 Missing character: There is no ; in font nullfont!
-)
-Overfull \vbox (9.78845pt too high) detected at line 120
- []
-
-[11
-
-] (diagram02-1-3.tikz
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-)
-Overfull \vbox (9.78845pt too high) detected at line 120
- []
-
-[12
-
-] (diagram02-1-3.tikz
-Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Requested font "FontAwesome/OT:" at 12.045pt
  -> E:/CTEX/MiKTeX/fonts/opentype/public/fontawesome/FontAwesome.otf
-Missing character: There is no ; in font nullfont!
-)
-Overfull \vbox (9.78845pt too high) detected at line 120
- []
-
-[13
-
-] (diagram02-1-3.tikz
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-)
-Overfull \vbox (9.78845pt too high) detected at line 120
- []
-
-[14
-
-] (diagram02-1-3.tikz
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-)
-Overfull \vbox (9.78845pt too high) detected at line 120
- []
-
-[15
-
-] (diagram02-1-3.tikz
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-)
-Overfull \vbox (9.78845pt too high) detected at line 120
- []
-
-[16
-
-] (diagram02-1-3.tikz
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-)
-Overfull \vbox (9.78845pt too high) detected at line 120
- []
-
-[17
-
-] (diagram02-1-3.tikz
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-)
-Overfull \vbox (9.78845pt too high) detected at line 120
- []
-
-[18
-
-] (diagram02-1-3.tikz
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-)
-Overfull \vbox (9.78845pt too high) detected at line 120
- []
-
-[19
-
-] (diagram02-1-3.tikz
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -2740,74 +2614,35 @@ Requested font "cmr6" at 6.52437pt
 Overfull \vbox (9.78845pt too high) detected at line 120
  []
 
-[20
+[7
 
-] [21
-
-] [22
-
-] (diagram02-1-2.tikz
-Missing character: There is no ; in font nullfont!
-) [23
-
-] (diagram02-1-2.tikz
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-) [24
-
-]
-(diagram02-1-2.tikz
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-) [25
+] [8
 
 ] (diagram02-1-2.tikz
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-) [26
+) [9
 
-] [27
+] [10
 
-] [28
+] [11
 
-] [29
-
-] [30
-
-]
-[31
-
-] [32
-
-] [33
-
-] [34
+] [12
 
 ]
 File: seg.pdf Graphic file (type QTm)
- <use  "seg.pdf" > [35
+ <use  "seg.pdf" > [13
 
-] [36
-
-] [37
-
-] [38
-
-] [39
-
-] [40
-
-] [41
+] [14
 
 ]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-[42
+[15
 
 ] (diagram01-2-1.tikz
 File: icon/webcluster.eps Graphic file (type eps)
@@ -2832,20 +2667,20 @@ File: icon/router.eps Graphic file (type eps)
 File: icon/webcluster.eps Graphic file (type eps)
  <icon/webcluster.eps>
 File: icon/webcluster.eps Graphic file (type eps)
- <icon/webcluster.eps>) [43
+ <icon/webcluster.eps>) [16
 
-] [44
+] [17
 
 ]
-[45
+[18
 
-] [46
+] [19
 
-] [47
+] [20
 
-] [48
+] [21
 
-] [49
+] [22
 
 ]
 \tf@nav=\write6
@@ -2869,12 +2704,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 336.
  ) 
 Here is how much of TeX's memory you used:
- 43833 strings out of 428702
- 870498 string characters out of 3166026
- 886586 words of memory out of 3000000
- 46448 multiletter control sequences out of 15000+200000
+ 43792 strings out of 428702
+ 869282 string characters out of 3166026
+ 874378 words of memory out of 3000000
+ 46431 multiletter control sequences out of 15000+200000
  14216 words of font info for 112 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
- 63i,16n,88p,10449b,1151s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,16n,88p,10449b,1154s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on presentation.pdf (49 pages).
+Output written on presentation.pdf (22 pages).
