@@ -1,0 +1,2 @@
+\fill[fill=grannysmithapple,draw=white,fill opacity=.4] (0,0) rectangle (2,1);
+\fill[fill=grannysmithapple,draw=white,fill opacity=.4] (2,0) rectangle (4,1);

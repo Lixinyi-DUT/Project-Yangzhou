@@ -1,0 +1,6 @@
+
+\draw[-,thick] (-4,0) -- node[below,label=below:LAN1]{\includegraphics[scale=.7]{icon/webcluster}} (8,0) ;
+\draw[-,thick] (-3,0) -- node[label=left:\textbf {路由器}]{\includegraphics[scale=.7]{icon/router}} (-3,4) node[above,yshift=-5pt,label=above:LAN2: \textbf {91台主机}]{\includegraphics[scale=.7]{icon/webcluster}};
+\draw[-,thick] (2,0) -- node[label=left:\textbf {路由器}]{\includegraphics[scale=.7]{icon/router}} (2,4) node[above,yshift=-5pt,label=above:LAN3: \textbf {150台主机}]{\includegraphics[scale=.7]{icon/webcluster}};
+\draw[-,thick] (7,0) -- node[label=left:\textbf {路由器}]{\includegraphics[scale=.7]{icon/router}} (7,4) node[above,yshift=-5pt,label=above:LAN4: \textbf {3台主机}]{\includegraphics[scale=.7]{icon/webcluster}};
+\draw[-,thick] (7,2) -- (10,2) node[right,xshift=-5pt,label=above:LAN5: \textbf {15台主机}]{\includegraphics[scale=.7]{icon/webcluster}};
