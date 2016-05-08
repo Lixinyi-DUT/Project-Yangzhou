@@ -1,0 +1,14 @@
+%\draw[-,thick] (0,4) node[label=below:{Host $A$}]{\includegraphics[scale=.6]{icon/pc}} -- (2,4);
+%\draw[-,thick] (10,4)-- (12,4) node[label=below:{Host $B$}]{\includegraphics[scale=.6]{icon/pc}};
+%\draw[-,thick] (2,4) node[label=below:$R_1$]{\includegraphics[scale=.6]{icon/router}} -- (6,7) node[label=above:$R_2$]{\includegraphics[scale=.6]{icon/router}} -- (10,4) node[label=below:$R_3$]{\includegraphics[scale=.6]{icon/router}} -- (6,1) node[label=below:$R_4$]{\includegraphics[scale=.6]{icon/router}} -- (2,4);
+
+\path (0,4) node(A) [label={[align=center]below:{Host $A$}\\IP:222.195.65.197\\MAC:74-29-9C-E8-FF-55}] {\includegraphics[scale=.6]{icon/pc}};
+\path (12,4) node(B) [label={[align=center]below:{Host $B$}\\IP:210.32.157.79\\MAC:49-BD-D2-C7-56-2A}]  {\includegraphics[scale=.6]{icon/pc}};
+\path (2,4) node(R1) [label=below:$R_1$] {\includegraphics[scale=.6]{icon/router}};
+\path (6,7) node(R2) [label=above:$R_2$]{\includegraphics[scale=.6]{icon/router}};
+\path (10,4) node(R3)[label=below:$R_3$] {\includegraphics[scale=.6]{icon/router}};
+\path (6,1) node(R4) [label=below:$R_4$]{\includegraphics[scale=.6]{icon/router}};
+\draw[-,thick] (A) --node[pos=.86,sloped,above]{\texttt{LAN1}} (R1) --node[pos=.25,sloped,above,align=left]{IP:49.74.228.20\\MAC:64-27-37-60-74-C7} node[pos=.07,sloped,below]{\texttt{LAN2}} node[pos=.73,sloped,below,align=right]{IP:49.74.228.52\\MAC:E0-06-E6-87-8E-C2} node[pos=.93,sloped,above]{\texttt{LAN1}}(R2)  --node[pos=.28,sloped,above,align=left]{IP:114.212.81.12\\MAC:58-91-CF-37-49-75} node[pos=.07,sloped,below]{\texttt{LAN2}} node[pos=.7,sloped,below,align=right]{IP:114.212.81.31\\MAC:88-9F-FA-FA-3C-E3} node[pos=.93,sloped,above]{\texttt{LAN2}} (R3) --node[pos=.29,sloped,below,align=right]{IP:139.226.16.203\\MAC:00-05-A1-48-06-7B} node[pos=.09,sloped,above]{\texttt{LAN3}} node[pos=.7,sloped,above,align=left]{IP:139.226.109.46\\MAC:00-0C-29-C4-CD-16}(R4) node[pos=.93,sloped,below]{\texttt{LAN2}} -- node[pos=.29,sloped,below,align=right]{IP:117.68.196.65\\MAC:00-14-22-43-62-76} node[pos=.07,sloped,above]{\texttt{LAN1}} node[pos=.7,sloped,above,align=left]{IP:117.68.202.11\\MAC:00-60-16-0A-B5-A3} node[pos=.93,sloped,below]{\texttt{LAN3}} (R1);
+\draw[-,thick] (B) -- node[pos=.87,sloped,above]{\texttt{LAN1}} (R3);
+\draw[<-,font=\tiny] (1,6) node[align=center,above]{IP:222.195.65.101\\MAC:00-01-6C-06-A6-29} --  (1.6,4.2);
+\draw[<-,font=\tiny] (11,6) node[align=center,above]{IP:210.32.157.6\\MAC:1A-23-F9-CD-D6-9B} -- (10.4,4.2);
