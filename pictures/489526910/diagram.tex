@@ -1,0 +1,23 @@
+% !TEX program = xelatex
+\documentclass[tikz]{standalone}
+\usepackage{ctex}
+\usepackage{fontawesome}
+\usepackage{tikz}
+\usepackage{epstopdf}
+\usetikzlibrary{arrows,decorations.markings}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{calc}
+\definecolor{babypink}{rgb}{0.96, 0.76, 0.76}
+\definecolor{babyblue}{rgb}{0.54, 0.81, 0.94}
+\definecolor{cadmiumgreen}{rgb}{0.0, 0.42, 0.24}
+
+\begin{document}
+  \begin{tikzpicture}[decoration={
+      markings,
+      mark=at position 1 with {\arrow[scale=1]{angle 90}};
+    }]
+
+    \input{unstable.tikz}
+
+  \end{tikzpicture}
+\end{document}

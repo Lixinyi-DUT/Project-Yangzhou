@@ -1,0 +1,8 @@
+\node[circle,draw,fill=babypink,minimum size=1cm] (w1) at (0,0) {$w$};
+\node[circle,draw,fill=babyblue,minimum size=1cm] (m1) at (2,2) {$m$};
+\node[circle,draw,fill=babypink,minimum size=1cm] (w2) at (4,0) {$w'$};
+\node[circle,draw,fill=babyblue,minimum size=1cm] (m2) at (6,2) {$m'$};
+\draw (w1) -- node[sloped,above]{\small matched} (m1) ;
+\draw (w2) -- node[sloped,below]{\small matched} (m2) ;
+\draw[dashed,color=cadmiumgreen,->] (m1.10) --node[sloped,above]{\small prefer} (w2.170);
+\draw[dashed,color=cadmiumgreen,->] (w2.190) --node[sloped,below]{\small prefer} (m1.350);
