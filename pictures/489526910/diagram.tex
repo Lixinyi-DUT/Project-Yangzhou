@@ -12,6 +12,14 @@
 \definecolor{cadmiumgreen}{rgb}{0.0, 0.42, 0.24}
 
 \begin{document}
+
+  \begin{tikzpicture}[decoration={
+      markings,
+      mark=at position 1 with {\arrow[scale=1]{angle 90}};
+    }]
+    \input{bipartite.tikz}
+  \end{tikzpicture}
+  
   \begin{tikzpicture}[decoration={
       markings,
       mark=at position 1 with {\arrow[scale=1]{angle 90}};
