@@ -1,0 +1,21 @@
+\node[circle,draw,fill=babyblue,minimum size=1cm] (m) at (2,0) {$m_i$};
+
+\node[circle,draw,fill=babypink,minimum size=1cm] (w1) at (0,2) {$w_1^i$};
+\node[circle,draw,fill=babypink,minimum size=1cm] (w2) at (2,2) {$w_2^i$};
+\node[circle,draw,fill=babypink,minimum size=1cm] (w3) at (4,2) {$w_3^i$};
+\path (6,2) node {$\cdots$};
+\node[circle,draw,fill=babypink,minimum size=1cm] (wn) at (8,2) {$w_n^i$};
+
+\node (p1) at (0,0) {};
+\node (p3) at (4,0) {};
+\node (pn) at (8,0) {};
+
+\draw[<-,color=cadmiumgreen,thick] (0,3) -- node[above]{\small prefer} (8,3);
+
+\draw[->,thick] (m) -- node[below,align=center]{\small propose} (9,0);
+\draw[<->,dashed] (w2) -- (m);
+\draw[<->,dashed] (w3) -- (p3);
+\draw[<->,dashed] (wn) -- (pn);
+\draw[->,red,thick] (m) --node[below]{\small never back} (p1);
+
+\path (1,0) node[color=red]{\faClose};
