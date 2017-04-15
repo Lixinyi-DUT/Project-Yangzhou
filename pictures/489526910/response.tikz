@@ -1,0 +1,27 @@
+\node[circle,draw,fill=babyblue,minimum size=1cm] (m1) at (6,0) {$m$};
+\node[circle,draw,fill=babypink,minimum size=1cm] (w) at (3,0) {$w$};
+\node[circle,draw,fill=babyblue,minimum size=1cm] (m2) at (3,3) {$m'$};
+
+
+\draw[-] (m1) -- node[below]{\small match} (w);
+\draw[color=cadmiumgreen,->] (m2) -- node[above,sloped]{\small propose} (w);
+\draw[<->,dashed] (m1)--node[above,sloped]{\small{\textcolor{red}{$w$}} compares $\to$ responds}(m2);
+
+\node[circle,draw,fill=babyblue,minimum size=1cm] (m3) at (14,0) {$m$};
+\node[circle,draw,fill=babypink,minimum size=1cm] (w1) at (10,0) {$w$};
+\node[circle,draw,fill=babyblue,minimum size=1cm] (m4) at (10,3) {$m'$};
+
+\draw[->] (w1) --node[above,sloped]{\small accept} (m4);
+\draw[-,red,dashed] (w1)--node[below]{\small break} (m3);
+\path (12,0) node[red]{\faClose};
+
+\node[circle,draw,fill=babyblue,minimum size=1cm] (m5) at (-1,0) {$m$};
+\node[circle,draw,fill=babypink,minimum size=1cm] (w2) at (-4,0) {$w$};
+\node[circle,draw,fill=babyblue,minimum size=1cm] (m6) at (-4,3) {$m'$};
+
+\draw[->,dashed,red] (w2) --node[above,sloped]{\small reject} (m6);
+\draw[-] (m5) -- node[below]{\small match} (w2);
+\path (-4,1.5) node[red]{\faClose};
+
+\draw[->,thick] (2,1.5) --node[above]{\small {\textcolor{red}{$w$}} prefers $m$} (-1.5,1.5);
+\draw[->,thick,color=cadmiumgreen] (6,1.5) --node[above]{\small {\textcolor{red}{$w$}} prefers $m'$} (9,1.5);
