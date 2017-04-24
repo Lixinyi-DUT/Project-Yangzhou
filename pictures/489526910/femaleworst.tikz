@@ -1,0 +1,22 @@
+\draw[dashed,opacity=0.7,color=babyblue] (-2,2) -- (6,2);
+\draw[dashed,opacity=0.7,color=babyblue] (-2,4) -- (6,4);
+\draw[dashed,opacity=0.7,color=babypink] (-2,0) -- (6,0);
+\draw[dashed,opacity=0.7,color=babypink] (-2,-2) -- (6,-2);
+
+
+
+\node[circle,draw,fill=babyblue,minimum size=1cm] (m1) at (0,4) {$m$};
+\node[circle,draw,fill=babypink,minimum size=1cm] (w1) at (5,0) {$w$};
+\node[circle,draw,fill=babyblue,minimum size=1cm] (m2) at (5,2) {$m'$};
+\node[circle,draw,fill=babypink,minimum size=1cm] (w2) at (0,-2) {$w'$};
+
+\draw[thick] (w2)-- node[above,sloped]{\footnotesize matched in $S$}(m1);
+\draw[thick] (w1)-- node[below,sloped,yshift=-0.5cm]{\footnotesize matched in $S$}(m2);
+
+\draw [decorate,decoration={brace,amplitude=10pt,mirror,raise=2pt}]
+(5.5,2) -- node[midway,right,xshift=0.4cm]{\small {\color{babypink}{$w$}} prefers ${\color{babyblue}{m}}>{\color{babyblue}{m'}}$} (5.5,4);
+
+\draw [decorate,decoration={brace,amplitude=10pt,raise=2pt}]
+(-0.5,-2) -- node[midway,left,xshift=-0.4cm]{\small ${\color{babyblue}{m}}$ prefers ${\color{babypink}{w}}>{\color{babypink}{w'}}$} (-0.5,0);
+
+\draw[thick,dashed,red] (w1) --node[sloped]{\Large\faExclamationTriangle} (m1);

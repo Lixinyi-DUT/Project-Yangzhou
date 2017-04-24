@@ -6,17 +6,16 @@ class man:
     def __init__(self,num,pref=[]):
         self.prefer=pref
         self.spouse=-1
-        self.cur=-1
-        self.num=num
+        self.id=num
 
     def setpref(self,pref):
         self.prefer=pref
 
     def propose(self,W):
-        self.cur=self.cur+1
-        re,ex=W[self.prefer[self.cur]-1].response(self)
+        target=self.prefer.pop(0)
+        re,ex=W[target-1].response(self)
         if re:
-            self.spouse=self.prefer[self.cur]
+            self.spouse=target
         return re,ex
 
 
@@ -27,7 +26,7 @@ class man:
 class woman:
     def __init__(self,num,pref=[]):
         self.matched=False
-        self.num=num
+        self.id=num
         if len(pref)>0:
             self.setscore(pref)
         else:
@@ -45,8 +44,8 @@ class woman:
             self.spouse=m
             return True,-1
         else:
-            if self.score[m.num-1]>self.score[self.spouse.num-1]:
-                ex=self.spouse.num
+            if self.score[m.id-1]>self.score[self.spouse.id-1]:
+                ex=self.spouse.id
                 self.spouse=m
                 return True,ex
             else:
@@ -81,17 +80,16 @@ class matcher:
                 self.single_man.append(i)
             if len(self.single_man)==0:
                 break
-            print self.single_man
 
     def declaim(self):
         self.marriage=[]
         for i in self.M:
-            self.marriage.append((i.num,i.spouse))
+            self.marriage.append((i.id,i.spouse))
         for i in self.marriage:
             print i
 
 
 
-ma=matcher('test0_man.txt','test0_woman.txt')
+ma=matcher('test1_man.txt','test1_woman.txt')
 ma.stable_match()
 ma.declaim()

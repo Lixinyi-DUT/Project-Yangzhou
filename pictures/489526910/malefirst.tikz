@@ -1,0 +1,17 @@
+\draw[dashed,gray] (4,3) node[above]{$t$} -- (4,-5) node[below]{$t$};
+
+\node[circle,draw,fill=babyblue,minimum size=1cm] (m1) at (0,0) {$m$};
+\node[circle,draw,fill=babypink,minimum size=1cm] (w1) at (4,2) {$w^*$};
+\node[circle,draw,fill=babypink,minimum size=1cm] (w2) at (3,-2) {$w^*$};
+\node[circle,draw,fill=babypink,minimum size=1cm] (w3) at (5,-2) {$w^{**}$};
+\node[circle,draw,fill=babypink,minimum size=1cm] (w4) at (7,-2) {$w'$};
+
+\node[circle,draw,fill=babyblue,minimum size=1cm] (m2) at (0,-4) {$m^*$};
+\node (p1) at (4,0) {};
+\node (p2) at (3,-4) {};
+
+\draw[->,thick] (m1) --node[below]{\small propose} (8,0);
+\draw[->,thick] (m2) --node[below]{\small propose} (8,-4);
+\draw[->,dashed,red,thick] (w1) -- node[sloped,above]{\small reject} (p1);
+
+\draw[->,thick] (w2) -- node[sloped,above]{\small accept} (p2);

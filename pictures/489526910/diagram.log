@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100) (preloaded format=xelatex 2016.6.16)  15 APR 2017 23:07
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100) (preloaded format=xelatex 2016.6.16)  24 APR 2017 20:16
 entering extended mode
 **F:/Project-Yangzhou/pictures/489526910/diagram.tex
 (F:/Project-Yangzhou/pictures/489526910/diagram.tex
@@ -1633,15 +1633,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 8.
 )
-[4] (diagram.aux) )
+[4] (malefirst.tikz) [5] (femaleworst.tikz
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.52812> on input line 13.
+) [6] (diagram.aux) )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 32969 strings out of 428410
- 674661 string characters out of 3163061
+ 33012 strings out of 428410
+ 675663 string characters out of 3163061
  617586 words of memory out of 3000000
- 35946 multiletter control sequences out of 15000+200000
- 6653 words of font info for 45 fonts, out of 3000000 for 9000
+ 35978 multiletter control sequences out of 15000+200000
+ 7593 words of font info for 51 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 62i,6n,71p,10476b,679s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,7n,71p,10476b,679s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on diagram.pdf (4 pages).
+Output written on diagram.pdf (6 pages).
