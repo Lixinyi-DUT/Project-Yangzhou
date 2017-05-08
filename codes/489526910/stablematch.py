@@ -1,7 +1,3 @@
-
-import os
-os.chdir(r'F:\Project-Yangzhou\codes\489526910')
-
 class man:
     def __init__(self,num,pref=[]):
         self.prefer=pref
@@ -50,6 +46,7 @@ class woman:
                 return True,ex
             else:
                 return False,-1
+
 
 class matcher:
     def __init__(self,man_file,woman_file):
