@@ -1,3 +1,6 @@
+import os
+os.chdir(r'F:\Project-Yangzhou\codes\489526910')
+
 class man:
     def __init__(self,num,pref=[]):
         self.prefer=pref
