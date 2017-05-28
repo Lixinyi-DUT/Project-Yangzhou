@@ -1,12 +1,13 @@
-\path (0,1) node {$\mathbf{W}$};
-\node[circle,draw,fill=babypink,minimum size=1cm] (w1) at (0,0) {};
-\node[circle,draw,fill=babypink,minimum size=1cm] (w2) at (0,-1.5) {};
-\path (0,-3) node {$ \vdots $};
-\node[circle,draw,fill=babypink,minimum size=1cm] (wn) at (0,-4.5) {};
+\path (4,1) node {$\mathbf{W}$};
+\node[circle,draw,fill=babypink,minimum size=.5cm] (w1) at (4,0) {};
+\node[circle,draw,fill=babypink,minimum size=.5cm] (w2) at (4,-1.5) {};
+\node[circle,draw,fill=babypink,minimum size=.5cm] (w3) at (4,-3) {};
+\node[circle,draw,fill=babypink,minimum size=.5cm] (w4) at (4,-4.5) {};
+\node[circle,draw,fill=babypink,minimum size=.5cm] (w5) at (4,-6) {};
 
-\path (4,1) node {$\mathbf{M}$};
-\node[circle,draw,fill=babyblue,minimum size=1cm] (m1) at (4,0) {};
-\node[circle,draw,fill=babyblue,minimum size=1cm] (m2) at (4,-1.5) {};
-\path (4,-3) node {$ \vdots $};
-\node[circle,draw,fill=babyblue,minimum size=1cm] (mn) at (4,-4.5) {};
-\node[rectangle,minimum size=2.5cm] (c) at (2,-3) {$\ldots$};
+\path (0,1) node {$\mathbf{M}$};
+\node[circle,draw,fill=babyblue,minimum size=.5cm] (m1) at (0,0) {};
+\node[circle,draw,fill=babyblue,minimum size=.5cm] (m2) at (0,-1.5) {};
+\node[circle,draw,fill=babyblue,minimum size=.5cm] (m3) at (0,-3) {};
+\node[circle,draw,fill=babyblue,minimum size=.5cm] (m4) at (0,-4.5) {};
+\node[circle,draw,fill=babyblue,minimum size=.5cm] (m5) at (0,-6) {};
