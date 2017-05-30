@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1495885283 "diagram.tex" "diagram.pdf" "diagram" 1495885288
+["pdflatex"] 1496050480 "diagram.tex" "diagram.pdf" "diagram" 1496050482
   "C:/Windows/Fonts/msyh.ttc" 1468669326 23607740 6261f6d67eae3af2c2b2903fdc30b73b ""
   "E:/CTEX/CTeX/fonts/sfd/UGBK.sfd" 1241576166 185529 c327b24b2f5c1c9a4bfb520121ad2b10 ""
   "E:/CTEX/CTeX/fonts/sfd/Unicode.sfd" 1241576166 5003 ed8fa4ed2859eb992d9be2eb98be4a6c ""
@@ -183,17 +183,18 @@
   "E:/CTEX/UserData/tex/generic/unicode-data/UnicodeData.txt" 1456039860 1621978 3a83069e69e2a9101dc4749593cd3268 ""
   "E:/CTEX/UserData/tex/latex/graphics-cfg/color.cfg" 1465894292 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "E:/CTEX/UserData/tex/latex/graphics-cfg/graphics.cfg" 1465894292 1224 978390e9c2234eab29404bc21b268d1e ""
-  "bipartite.tikz" 1491740388 750 c946dd981e1671fe4a3a7bc081d4feb0 ""
-  "diagram.aux" 1495885287 9 a94a2480d3289e625eea47cd1b285758 ""
-  "diagram.tex" 1495884695 1572 82f5c2091870a4c53532d0091cbce96f ""
+  "bipartite.tikz" 1495889178 750 c946dd981e1671fe4a3a7bc081d4feb0 ""
+  "diagram.aux" 1496050482 9 a94a2480d3289e625eea47cd1b285758 ""
+  "diagram.tex" 1496048508 1593 4cb239bee4b48138d42415918cef3191 ""
   "femaleworst.tikz" 1493036215 1202 daadad6a839e6fd3ca28ae01d0e11e65 ""
+  "m1.tikz" 1496050460 144 213103a94777cd74310f9870248cb3a1 ""
   "malefirst.tikz" 1492955755 838 57f490ae7cc70e637b6037cd46025ee6 ""
-  "matching.tikz" 1495885261 625 a76032e6ea4b9305498ab60fd5128180 ""
+  "matching.tikz" 1495891935 786 4bd1e17c81d5493e61570142218ae5c7 ""
   "propose.tikz" 1492089287 845 60b95ef1cb5709a201178724c303a24a ""
   "response.tikz" 1492268832 1413 5def0b69854c2a3c3455fdce7b11cce6 ""
   "unstable.tikz" 1491655331 587 fdae77d67d21dedd1bdf3d337a566a47 ""
   (generated)
-  "diagram.aux"
-  "diagram.pdf"
   "diagram.dvi"
+  "diagram.pdf"
   "diagram.log"
+  "diagram.aux"

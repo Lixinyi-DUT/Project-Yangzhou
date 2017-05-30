@@ -1,0 +1,9 @@
+\draw[-,opacity=.2,color=cadmiumgreen,line width=4] (m1) -- (w2);
+\draw[-,opacity=.2,color=cadmiumgreen,line width=4] (m2) -- (w2);
+\draw[-,opacity=.2,color=cherryblossompink,line width=4] (m3) -- (w1);
+\draw[-,opacity=.2,color=cherryblossompink,line width=4] (m4) -- (w5);
+\draw[-,opacity=.2,color=cherryblossompink,line width=4] (m5) -- (w4);
+
+\draw[dashed,color=cadmiumgreen,thick] (-.5,.5) rectangle node[left,xshift=-.6cm,color=black]{critical set $Z$} (.5,-2) ;
+\draw[dashed,color=cadmiumgreen,thick] (3.5,-1) rectangle
+node[right,color=black,xshift=.6cm]{${\cal N}\left( Z \right)$} (4.5,-2);
