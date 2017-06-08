@@ -1,0 +1,8 @@
+\draw[<-,thick] (m3) -- (w1);
+\draw[<-,thick] (m4) -- (w5);
+\draw[<-,thick] (m5) -- (w4);
+
+\draw[->,thick] (m1) -- (w2);
+\draw[->,thick] (m2) -- (w2);
+\draw[->,thick] (m3) -- (w2);
+\draw[->,thick] (m4) -- (w1);

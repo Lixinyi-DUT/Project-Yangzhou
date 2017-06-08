@@ -1,0 +1,12 @@
+\node[circle,draw,minimum size=.5cm] (t) at (8,-3) {$t$};
+\node[circle,draw,minimum size=.5cm] (s) at (-4,-3) {$s$};
+
+\draw[->,thick] (s) --(m1);
+\draw[->,thick] (s) --(m2);
+
+\draw[->,thick] (w2) --(t);
+\draw[->,thick] (w3) --(t);
+
+\draw[-,opacity=.2,color=cherryblossompink,line width=4] (m3) -- (w1);
+\draw[-,opacity=.2,color=cherryblossompink,line width=4] (m4) -- (w5);
+\draw[-,opacity=.2,color=cherryblossompink,line width=4] (m5) -- (w4);
